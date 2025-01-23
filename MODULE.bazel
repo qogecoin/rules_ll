@@ -19,7 +19,7 @@ bazel_dep(name = "stardoc", version = "0.7.2", dev_dependency = False)
 
 # TODO(aaronmondal): We don't actually use this. Fix LRE upstream to make this
 #                    import optional.
-bazel_dep(name = "rules_rust", version = "0.56.0")
+bazel_dep(name = "rules_rust", version = "0.57.1")
 
 # The LLVM project. We override the specific commit below.
 bazel_dep(name = "llvm-project-overlay", version = "17-init-bcr.3")
