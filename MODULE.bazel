@@ -15,7 +15,7 @@ bazel_dep(name = "bazel_skylib", version = "1.7.1")
 #
 # TODO(aaronmondal): This should be a dev_dependency, but that currently breaks
 #                    the examples.
-bazel_dep(name = "stardoc", version = "0.7.2", dev_dependency = False)
+bazel_dep(name = "stardoc", version = "0.8.0", dev_dependency = False)
 
 # TODO(aaronmondal): We don't actually use this. Fix LRE upstream to make this
 #                    import optional.
